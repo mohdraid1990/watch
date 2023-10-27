@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+#counter {
+    font-size: 20px;
+    color: #60548a85;
+    margin-top: 2px;
+}
+.vewis {
+        border: 2px solid red;
+    padding: 20px;
+    width: 196px;
+    height: 100px;
+    background-color: #ee82ee29;
+}
