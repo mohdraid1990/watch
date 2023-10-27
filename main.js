@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   totalVisits += currentVisits - previousVisits;
   setCookie('visits', currentVisits.toString(), 365);
   setCookie('totalVisits', totalVisits.toString(), 365);
-  counter.textContent = `Current views: ${currentVisits} - Previous views: ${previousVisits} - Total views: ${totalVisits}`;
+  counter.textContent = `المشاهدات الحالية: ${currentVisits} - المشاهدات السابقة: ${previousVisits} - إجمالي المشاهدات: ${totalVisits}`;
 });
 
 function getCookie(name) {
